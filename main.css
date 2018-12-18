@@ -1,0 +1,379 @@
+html{cursor: url(./cursor.png)3 3, auto;}
+
+.main{
+  background-image:url('bg.png');
+  width : 100%;
+  height : 800px;
+  
+  }
+  
+  #logo{
+  width:85px;
+  height:85px;
+  background-image:url(./images/logo.png);
+  left : 5%;
+  top : 5%;
+  position : absolute;
+  }
+  
+  
+  #logo:hover
+  {
+	background-image:url(./images/logo_change.png);
+  }
+  
+  
+  .letter
+  {
+  left : 100px;
+  bottom : 50px;
+  position : absolute;
+  }
+  
+  #letter-image{
+  width : auto; height : auto;
+  max-width : 300px;
+  max-height : 180px;
+  }
+  
+  .person
+  {
+  
+  right : 20%;
+  bottom : 0px;
+  position : absolute;
+  
+  }
+  
+  #font{
+  right : 20%;
+  position : relative;
+  }
+
+
+.jina-imagination{
+background-image:url('./images/background_01.png');
+background-repeat : no-repeat;
+background-position : 100%;
+background-size : 100%;
+
+height : 800px;
+width : 100%
+}
+
+.slot{
+width : 10%;
+height : 10%;
+}
+
+#lever
+{
+width : 20%;
+height : 20%;
+
+left : 1%;
+bottom : -80%;
+position : absolute;
+}
+
+#run_jina
+{
+width : 18%;
+height : 18%;
+
+left : 2%;
+bottom : -70%;
+position : absolute;
+}
+
+
+#moon{
+left : 40%;
+bottom : -70%;
+
+width : 500px;
+height : 400px;
+position : absolute;
+
+}
+
+
+#ballet_jina
+{
+width : 100px;
+height : 200px;
+
+left : 30%;
+bottom : -70%;
+position : absolute;
+}
+
+
+#sleep_jina
+{
+width : 200px;
+height : 200px;
+
+right : 25%;
+bottom : -40%;
+position: absolute;
+
+}
+
+
+
+
+
+
+
+.imagination_font
+{
+position : relative;
+}
+
+
+#imagine_font
+{
+left : 3%;
+top : 28%;
+
+}
+
+#ing_font
+{
+left : 26%;
+top : 20%;
+}
+
+
+#real_font
+{
+left : 40%;
+top : 5%;
+
+}
+
+
+.sense_value{
+margin-top : 200px;
+width:100%;
+height : 900px;
+
+background-image : url(./images/bg_02.png);
+background-repeat : no-repeat;
+
+
+}
+
+
+#background_02
+{
+width : 100%;
+height : 100%;
+}
+
+.sub_bg_02
+{
+background-image : url(./sub_bg_02.png);
+background-repeat : no-repeat;
+width : 50%;
+height : 80%;
+top : -10%;
+margin : 0 auto;
+position: relative;
+}
+
+#left_jina
+{
+top : 10%;
+position : relative;
+}
+
+
+#right_jina
+{
+left:47%;
+top:41%;
+position : relative;
+}
+
+
+#straight_jina
+{
+right : 15%;
+top : 90%;
+position : relative;
+
+}
+
+#second-font-01
+{
+right: 70%;
+top : 10%;
+position : relative;
+
+}
+
+
+#second-font-02
+{
+left : 30%;
+bottom :60%;
+position : relative;
+}
+
+
+#second-font-03
+{
+left : 30%;
+top : 10%;
+position : relative;
+}
+
+#second-font-04
+{
+left : 60%;
+top : 46%;
+position : relative;
+}
+
+#second-font-05
+{
+left : 60%;
+top : 30%;
+position : relative;
+}
+
+
+.third_background
+{
+width:100%;
+height : 900px;
+
+}
+
+
+.nested_third_background
+{
+width : 60%;
+height : 90%;
+top : 150px;
+margin : 0 auto;
+position : relative;
+background-image : url(./images/bg_03.png);
+background-repeat : no-repeat;
+}
+
+
+#habbit
+{
+left  : 8%;
+top : 40%;
+margin : 0 auto;
+position : relative;
+}
+
+#third-font
+{
+left : 30%;
+top : 70px;
+margin : 0 auto;
+position : relative;
+}
+
+
+
+.fourth_background
+{
+width:100%;
+height : 900px;
+
+position : relative;
+background-image : url(./images/bg_04.png);
+background-repeat : no-repeat;
+
+}
+
+
+.fourth_sub_background
+{
+top : 20%;
+width:60%;
+height:75%;
+margin : 0 auto;
+position : relative;
+background-image : url(./images/sub_bg_04.png);
+background-repeat : no-repeat;
+}
+
+
+.fourth_sub_background:hover
+{
+background-image : url(./images/sub_bg_change_04.png);
+}
+
+#fourth-font-01
+{
+left : 40%;
+top : 40%;
+margin : 0 auto;
+
+position : relative;
+}
+
+
+
+.fifth_background
+{
+width:100%;
+height : 1300px;
+position : relative;
+background-image : url(./images/bg_05.png);
+background-repeat : no-repeat;
+}
+
+
+.lion
+{
+
+width : 630px;
+height : 630px;
+top: 300px; 
+margin : 0 auto;
+position : relative;
+background-image : url(./images/lion.png);
+background-repeat : no-repeat;
+}
+
+/* for Chrome, Safari */
+@-webkit-keyframes blink {
+ 0% {opacity : 0;}
+ 25% {opacity : 0.5;}
+ 50% {opacity : 1;}
+}
+
+
+#fifth-font
+{
+display:none;
+}
+
+
+#star
+{
+animation: blink 2s ease-in-out infinite;
+display : inline-block;
+width : 25px;
+height : 25px;
+background-image : url(./images/star.png);
+background-repeat : no-repeat;
+}
+
+#star:hover img
+{
+display : block;
+}
+
+fifth-font:hover{
+display : inline;
+}
